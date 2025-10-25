@@ -44,6 +44,18 @@ function App() {
     );
   }
 
+  if (error) {
+    return (
+      <div className="flex items-center justify-center h-screen bg-red-50 p-4">
+        <div className="text-center">
+          <h2 className="text-xl font-semibold text-red-800">Authentication Error</h2>
+          <p className="text-red-600 mt-2">Could not connect to the authentication service. Please check your network connection and try again.</p>
+          <p className="text-xs text-gray-500 mt-4">Error: {error.message}</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <HashRouter>
       <Routes>
