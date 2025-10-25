@@ -1,0 +1,5 @@
+{
+  "name": "Cash Book Manager",
+  "description": "A comprehensive cash book management application to track cash in and cash out for multiple businesses. Features include member roles, data export to PDF and Excel, and secure cloud storage.",
+  "requestFramePermissions": []
+}
